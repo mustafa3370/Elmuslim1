@@ -1,0 +1,90 @@
+.aladhan {
+    margin-top:5px;
+    position: relative;
+    background-image: url(../../photos/bg-pattern.webp);
+}
+.back::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 30px;
+    width: 100%;
+    background: url(../../photos/zigzag-top.webp) repeat-x  ;
+    z-index: 1;
+}
+.back::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+    background: url(../../photos/zigzag-bottom.webp) repeat-x scroll 0 0;
+    z-index: 1;
+}
+
+.text {
+    position: relative;
+    margin-bottom: 50px;
+    top: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: verdana;
+    font-size: 5em;
+    font-weight: 700;
+    color: #f5f5f5;
+    text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        1px 7px 1px #919191,
+        1px 8px 1px #919191,
+        1px 9px 1px #919191,
+        1px 10px 1px #919191,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+}
+.test{
+    position: relative;
+}
+.test .content{
+    width: 50%;
+    height: 50%;
+    top: 40%;
+    left: 21%;
+    position: absolute;
+    color: burlywood;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.content h1,h2{
+    font-size: 20px;
+}
+.mosque{
+    margin-top:5px;
+    position: relative;
+}
+.mosque img{
+    margin-top: 50px;
+}
+.photo{
+    width: 75%;
+    border-radius: 5px;
+}
+
+section.text{
+    padding: 80px 0; 
+  }
+  section .text h2 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 73px;
+    color: #341413;
+    width: 50%;
+    font-family: "Josefin Sans", sans-serif;
+  }
