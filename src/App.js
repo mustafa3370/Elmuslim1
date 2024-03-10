@@ -5,7 +5,7 @@ import Layout from './components/Layout/Layout';
 import NotFound from './components/NotFound/NotFound';
 const Router = createBrowserRouter([
   {path:'/',element:<Layout/>,children:[
-      { path: "home", element: <Home />},
+      { path: "", element: <Home />},
       { path: "home", element: <Home />},
       { path: "*", element: <NotFound/>}
   ]},

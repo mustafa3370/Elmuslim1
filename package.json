@@ -1,7 +1,7 @@
 {
   "name": "muslim",
   "version": "0.1.0",
-  "homepage": "https://mustafa3370.github.io/Islamic2",
+  "homepage": "https://mustafa3370.github.io/Elmuslimgit remote add origin https://github.com/mustafa3370/Elmuslim.git",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.5.1",
