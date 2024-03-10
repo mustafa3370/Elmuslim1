@@ -7,7 +7,11 @@ function Aladhan() {
 const[adan,Setadan]=useState([])
 
 async function getAdan(){
-  const {data} = await axios.get("http://api.aladhan.com/v1/timingsByCity/:date?city=EG-C&country=EG",{
+  const {data} = await axios.get("http://api.aladhan.com/v1/timingsByCity/:date",{
+      params:{
+        city:"EG-C",
+        country:"EG"
+      }
     });
     Setadan(data.data.timings)
 }
